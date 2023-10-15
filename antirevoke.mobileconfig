@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.unique_identifier1</string>
+            <key>PayloadUUID</key>
+            <string>0085f63c-ab6d-45ae-9f87-8e0cef7335d4</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://tinyurl.com/mrx3wsu2</string>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>WiFi</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>Cellular</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Disconnect</string>
+                </dict>
+            </array>
+            <key>PayloadDisplayName</key>
+            <string>Anti Revoke</string>
+            <key>PayloadOrganization</key>
+            <string>moop</string>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>a normal anti-revoke made by moop
+https://discord.gg/moop</string>
+    <key>PayloadDisplayName</key>
+    <string>moop's Anti Revoke</string>
+    <key>PayloadIdentifier</key>
+    <string>com.moop.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>fafd46f6-4af6-4ee2-b538-eceb5b7cf1a1</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>Signed</key>
+    <true/>
+</dict>
+</plist>
+
+
+
+
